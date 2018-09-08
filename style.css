@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #ededed;
     font-size: 1em;
@@ -6,7 +11,7 @@ body {
 
 .container {
     background-color: white;
-    width: 80%;
+    width: 1170px;
     margin: 100px auto 20px;
     padding: 0 20px 20px;
 }
@@ -46,25 +51,79 @@ h3:before {
     margin-right: 10px;
 }
 
+p {
+    margin: 10px 0;
+}
+
 sup {
     opacity: 0.5;
 }
 
 main {
     display: flex;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 .left-column {
-    width: 60%;
+    width: 58%;
 }
 
 .right-column {
     margin-left: 30px;
-    width: 40%;
+    width: 42%;
 }
 
 main section p {
     font-size: 14px;
     line-height: 1.5em;
+}
+
+.education-list {
+    list-style: none;
+    position: relative;
+}
+
+.education-list:before {
+    content: ' ';
+    background-color: #F0563D;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    display: inline-block;
+    z-index: 0;
+}
+
+.education-list li {
+    margin-top: 10px;
+    position: relative;
+}
+
+.year {
+    width: 10%;
+    display: inline-block;
+    background-color: white;
+    float: left;
+    margin-top: 15px;
+}
+
+.education-content {
+    padding: 10px 10px 0;
+    width: 86%;
+    display: inline-block;
+    background-color: #eee;
+    border-bottom: 1px solid #dddddd;
+}
+
+.education-content:after {
+    content: ' ';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 57px;
+    top: 18px;
+    border-top: 8px solid transparent;
+    border-right: 10px solid #eeeeee;
+    border-bottom: 8px solid transparent;
 }
