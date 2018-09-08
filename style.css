@@ -48,3 +48,16 @@ h3:before {
 sup {
     opacity: 0.5;
 }
+
+main {
+    display: flex;
+    padding-top: 20px;
+}
+
+.left-column {
+    width: 60%;
+}
+
+.right-column {
+    width: 40%;
+}
