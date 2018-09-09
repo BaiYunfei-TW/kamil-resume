@@ -160,3 +160,31 @@ main section p {
 .experience-content p {
     font-size: 13px;
 }
+
+.contact-list li {
+    display: flex;
+}
+
+.contact-icon {
+    width: 10%;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-info {
+    line-height: 14px;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+
+.contact-info p {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.info-with-content {
+    padding-top: 8px;
+}
