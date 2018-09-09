@@ -78,11 +78,13 @@ main {
 
 .left-column {
     width: 58%;
+    overflow: hidden;
 }
 
 .right-column {
     margin-left: 30px;
     width: 42%;
+    overflow: hidden;
 }
 
 main section p {

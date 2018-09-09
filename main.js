@@ -10,8 +10,6 @@ for(let i = 0; i < items.length; i++){
             currentWidth = item.parentElement.clientWidth;
         }
         item.style.width = currentWidth + 'px';
-        console.log(item.style.width, currentWidth)
-        console.log(item.parentElement.clientWidth)
         if (parseInt(item.style.width) >= item.parentElement.clientWidth * percentage) {
             clearInterval(interval);
         }
