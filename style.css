@@ -212,7 +212,7 @@ main section p {
     display: inline-block;
     font-size: 12px;
     position: relative;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .skills-legend-left {
@@ -252,4 +252,28 @@ main section p {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.language-item {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0;
+}
+
+.language-icon {
+    float: right;
+    position: relative;
+    color: #ccc;
+}
+
+.language-icon-level {
+    color: #F0563D;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0;
+}
+
+.language-title {
+    display: inline-block;
+    font-size: 14px;
 }
