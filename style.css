@@ -7,6 +7,9 @@ ul {
     list-style: none;
 }
 
+section {
+    overflow: hidden;
+}
 
 body {
     background-color: #ededed;
@@ -34,7 +37,7 @@ header {
     border: 5px solid #ededed;
 }
 
-h1,h2,h3,p {
+h1, h2, h3, p {
     padding: 0;
     margin: 0;
 }
@@ -90,7 +93,7 @@ main section p {
 
 .education-list:before {
     content: ' ';
-    background: linear-gradient(to bottom, white, #F0563D 10%,#F0563D 90%,white);
+    background: linear-gradient(to bottom, white, #F0563D 10%, #F0563D 90%, white);
     width: 5px;
     height: 100%;
     position: absolute;
@@ -187,4 +190,66 @@ main section p {
 
 .info-with-content {
     padding-top: 8px;
+}
+
+.skills-list li {
+    background-color: #F0563D;
+    margin: 10px 0;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 15px;
+    overflow: hidden;
+    height: 30px;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.skills-legend div {
+    width: 25%;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    padding-top: 10px;
+}
+
+.skills-legend-left {
+    float: left;
+}
+
+.skills-legend-right {
+    float: right;
+    text-align: right;
+}
+
+.skills-legend:before {
+    content: ' ';
+    width: 100%;
+    height: 3px;
+    background: #eee;
+    display: block;
+}
+
+.skills-legend-left:before {
+    content: ' ';
+    background: #eee;
+    display: block;
+    width: 3px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.skills-legend-right:before {
+    content: ' ';
+    background: #eee;
+    display: block;
+    width: 3px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
