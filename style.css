@@ -30,6 +30,10 @@ header {
     padding-bottom: 10px;
 }
 
+strong {
+    color: #363636;
+}
+
 .avatar {
     width: 150px;
     margin-top: -80px;
@@ -175,6 +179,7 @@ main section p {
     padding: 10px 0;
     display: inline-block;
     text-align: center;
+    color: #aaa;
 }
 
 .contact-info {
