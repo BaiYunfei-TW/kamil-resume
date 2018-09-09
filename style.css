@@ -85,7 +85,8 @@ main section p {
 
 .education-list:before {
     content: ' ';
-    background-color: #F0563D;
+    background: linear-gradient(to bottom, white, #F0563D 10%,#F0563D 90%,white);
+    /*background-color: #F0563D;*/
     width: 5px;
     height: 100%;
     position: absolute;
